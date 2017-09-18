@@ -1,0 +1,28 @@
+[config]
+
+CHIMERA_PATH = C:\Program Files\Chimera 1.11.2\bin\chimera
+CHIMERA_UTILS_PATH = C:\Users\Matan\PycharmProjects\Workshop\src\ChimeraUtils\
+
+DIM = 3
+TEMPLATE_DIMENSION = 25
+TOMOGRAM_DIMENSION = 120
+
+# Noise parameters
+NOISE_GAUSS_PARAM = 0.2
+NOISE_LINEAR_PARAM = 0.4
+NOISE_GAUSSIAN_SIZE = 10
+NOISE_GAUSSIAN_STDEV = 3
+
+# For correlation search
+NEIGHBORHOOD_HALF_SIDE = 3
+
+# Candidate selector peak detection constants
+CORRELATION_THRESHOLD = 10
+GAUSSIAN_SIZE = 10
+GAUSSIAN_STDEV = 3
+
+# For results metrics - if relative angle < TILT_THRESHOLD then correct tilt
+TILT_THRESHOLD = 16
+
+# For labeler
+DISTANCE_THRESHOLD = 5
